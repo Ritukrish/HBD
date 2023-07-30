@@ -97,30 +97,42 @@ box-shadow:  0 0 5px #dd1455, 0 0 15px #e40e2f, 0 0 20px #c51a4b, 0 0 40px #d80e
 	  height:70vh;
   }
 }
-@media screen and (max-width:400px){
-  h2{
-    font-size: 19px;
-    line-height: 120%;
-    margin-top: 6%;
+@media (min-width:400px) and (max-width:800px){
+  h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    line-height: 138%;
+    margin-top: 2%;
     font-family: 'Edu SA Beginner', "cursive";
-    
-  }
+    max-width: 80% !important;
 }
-@media (min-width:400px) and (max-width:900px){
-  h2{
-    font-size: 23px;
-    line-height: 135%;
-    margin-top: 6%;
-    font-family: 'Edu SA Beginner', "cursive";
-   
-  }
 }
-@media (min-width:300px) and (max-width:4800px){
-  h2{
-    font-size: 19px;
-    line-height: 180%;
-    margin-top: 6%;
+@media (max-width: 300px){
+  h2 {
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    line-height: 100%;
+    margin-top: 10%;
     font-family: 'Edu SA Beginner', "cursive";
-    
-  }
+    max-width: 80% !important;
+}
+}
+@media (min-width:300px) and (max-width:400px){
+  h2 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    line-height: 108%;
+    margin-top: 2%;
+    font-family: 'Edu SA Beginner', "cursive";
+    max-width: 80% !important;
+}
 }

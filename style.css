@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&display=swap');
+body{
+  background: #080808;
+  margin:0px;
+  box-sizing: border-box;
+}
+h1 {
+ font-size: calc(20px + 18vh);
+ line-height: calc(30px + 22vh);
+ font-family: "Sacramento";
+ text-align: center;
+ animation: blink 5s infinite;
+}
+
+.Happy {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+background: #000000;
+}
+
+h2 {
+    font-size: xx-large;
+    font-weight: 500;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    line-height: 181%;
+    margin-top: 10%;
+    font-family: 'Edu SA Beginner', "cursive";
+    max-width:100% !important;
+
+}
+hr{
+  border: 1px solid rgb(228, 77, 133);
+}
+.copyright{
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  background: #262626;
+  font-weight: 300;
+  margin-top: 20px;
+  font-size: 18px;
+  color:white;
+  font-family: 'Edu SA Beginner', "cursive";
+}
+#love{
+  color: #ff004f;
+} 
+@keyframes blink {
+20%,
+24%,
+55% {
+  color: #111;
+  text-shadow: none;
+}
+
+0%,
+19%,
+21%,
+23%,
+25%,
+54%,
+56%,
+100% {
+  text-shadow: 0 0 5px #dd1455, 0 0 15px #e40e2f, 0 0 20px #c51a4b, 0 0 40px #d80e5a, 0 0 60px #c81246, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+  color: #dae5e0;
+}
+}
+
+.main {
+
+max-width:80%;
+margin-left:10%;
+height:700px;
+border:10px solid #eecfe3;
+box-shadow:  0 0 5px #dd1455, 0 0 15px #e40e2f, 0 0 20px #c51a4b, 0 0 40px #d80e5a, 0 0 60px #c81246, 0 0 10px #ff8d00, 0 0 98px #ff0000;
+}
+
+
+
+
+
+@media screen and (max-width:550px){
+  h1{
+	  font-size:70px;
+	  line-height:15vh;
+  }
+
+  .main{
+	 
+	  max-width:90%;
+	  margin-left:5%;
+	  height:70vh;
+  }
+}
+@media screen and (max-width:400px){
+  h2{
+    font-size: 19px;
+    line-height: 95%;
+    margin-top: 6%;
+    font-family: 'Edu SA Beginner', "cursive";
+    
+  }
+}
+@media (min-width:400px) and (max-width:900px){
+  h2{
+    font-size: 23px;
+    line-height: 103%;
+    margin-top: 6%;
+    font-family: 'Edu SA Beginner', "cursive";
+   
+  }
+}

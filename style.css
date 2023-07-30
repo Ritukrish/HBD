@@ -136,3 +136,16 @@ box-shadow:  0 0 5px #dd1455, 0 0 15px #e40e2f, 0 0 20px #c51a4b, 0 0 40px #d80e
     max-width: 80% !important;
 }
 }
+@media (min-width:550px) and (max-width: 800px){
+  h2 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    line-height: 140%;
+    margin-top: 2%;
+    font-family: 'Edu SA Beginner', "cursive";
+    max-width: 80% !important;
+}
+}
